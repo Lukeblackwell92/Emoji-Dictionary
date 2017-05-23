@@ -10,9 +10,13 @@ import UIKit
 
 class DefinitionViewController: UIViewController {
 
+    var emoji = "no emoji"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        print(emoji)
+        
         // Do any additional setup after loading the view.
     }
 
