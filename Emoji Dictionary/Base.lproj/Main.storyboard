@@ -77,6 +77,9 @@
                             <constraint firstItem="ibb-dv-asz" firstAttribute="top" secondItem="IEm-Na-cSU" secondAttribute="bottom" constant="25" id="GZq-j3-YMj"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emojilabel" destination="IEm-Na-cSU" id="NRh-bP-iO8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8dn-c4-AdE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
