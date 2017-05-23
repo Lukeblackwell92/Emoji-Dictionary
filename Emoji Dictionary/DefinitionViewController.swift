@@ -12,6 +12,8 @@ class DefinitionViewController: UIViewController {
 
     @IBOutlet weak var definitionlabel: UILabel!
     @IBOutlet weak var emojilabel: UILabel!
+    @IBOutlet weak var catagoryLabel: UILabel!
+    @IBOutlet weak var releasedateLabel: UILabel!
     var emoji = "no emoji"
     
     override func viewDidLoad() {
@@ -20,43 +22,63 @@ class DefinitionViewController: UIViewController {
         emojilabel.text = emoji
         
         if emoji == "😀" {
-        definitionlabel.text = "A Happy Face!"
+            definitionlabel.text = "A Happy Face!"
+            catagoryLabel.text = "Catagory: Smiley"
+            releasedateLabel.text = "Released in 2010"
         }
         
         if emoji == "😇" {
             definitionlabel.text = "An Angelic Guy!"
+            catagoryLabel.text = "Catagory: Smiley"
+            releasedateLabel.text = "Released in 2012"
         }
         
         if emoji == "😡" {
             definitionlabel.text = "GRR Im Angry!"
+            catagoryLabel.text = "Catagory: Smiley"
+            releasedateLabel.text = "Released in 2010"
         }
         
         if emoji == "💩" {
             definitionlabel.text = "Eww... Poo..."
+            catagoryLabel.text = "Catagory: Smiley"
+            releasedateLabel.text = "Released in 2010"
         }
         
         if emoji == "😈" {
             definitionlabel.text = "You devil you!"
+            catagoryLabel.text = "Catagory: Smiley"
+            releasedateLabel.text = "Released in 2010"
         }
         
         if emoji == "🙏" {
             definitionlabel.text = "Say A prayer!"
+            catagoryLabel.text = "Catagory: Gesture"
+            releasedateLabel.text = "Released in 2010"
         }
         
         if emoji == "🦁" {
             definitionlabel.text = "A Cute Lion"
+            catagoryLabel.text = "Catagory: Animal"
+            releasedateLabel.text = "Released in 2010"
         }
         
         if emoji == "🐒" {
             definitionlabel.text = "A Cheeky Monkey!"
+            catagoryLabel.text = "Catagory: Animal"
+            releasedateLabel.text = "Released in 2010"
         }
         
         if emoji == "🐙" {
             definitionlabel.text = "A Squid... MMM!"
+            catagoryLabel.text = "Catagory: Animal"
+            releasedateLabel.text = "Released in 2010"
         }
         
         if emoji == "🌍" {
             definitionlabel.text = "Earth!"
+            catagoryLabel.text = "Catagory: Nature"
+            releasedateLabel.text = "Released in 2010"
         }
         
         

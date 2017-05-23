@@ -68,6 +68,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C8C-6I-sPk">
+                                <rect key="frame" x="153.5" y="424" width="68" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Release date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Yp-P1-jEk">
+                                <rect key="frame" x="138" y="450" width="99" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -75,11 +87,17 @@
                             <constraint firstItem="IEm-Na-cSU" firstAttribute="centerX" secondItem="p9u-eJ-Ned" secondAttribute="centerX" id="95p-Bi-HVk"/>
                             <constraint firstItem="IEm-Na-cSU" firstAttribute="top" secondItem="hRm-Bw-OD9" secondAttribute="bottom" constant="50" id="FWP-Nd-pRE"/>
                             <constraint firstItem="ibb-dv-asz" firstAttribute="top" secondItem="IEm-Na-cSU" secondAttribute="bottom" constant="25" id="GZq-j3-YMj"/>
+                            <constraint firstItem="8Yp-P1-jEk" firstAttribute="top" secondItem="C8C-6I-sPk" secondAttribute="bottom" constant="5" id="bgg-Lr-TzW"/>
+                            <constraint firstItem="8Yp-P1-jEk" firstAttribute="centerX" secondItem="p9u-eJ-Ned" secondAttribute="centerX" id="g64-8a-dIx"/>
+                            <constraint firstItem="C8C-6I-sPk" firstAttribute="top" secondItem="ibb-dv-asz" secondAttribute="bottom" constant="25" id="gVP-d3-AX6"/>
+                            <constraint firstItem="C8C-6I-sPk" firstAttribute="centerX" secondItem="p9u-eJ-Ned" secondAttribute="centerX" id="ihd-1y-sfB"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="catagoryLabel" destination="C8C-6I-sPk" id="m51-DP-qMQ"/>
                         <outlet property="definitionlabel" destination="ibb-dv-asz" id="vUh-R8-A52"/>
                         <outlet property="emojilabel" destination="IEm-Na-cSU" id="NRh-bP-iO8"/>
+                        <outlet property="releasedateLabel" destination="8Yp-P1-jEk" id="9Q1-1T-Ws4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8dn-c4-AdE" userLabel="First Responder" sceneMemberID="firstResponder"/>
